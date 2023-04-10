@@ -1,0 +1,83 @@
+body  {
+    background-image: url("images/3.PNG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+      
+      
+      .email_section_1 p{
+        margin-top: -8px;
+        
+      }
+       
+       .span_cls_1 {
+        /* color: rgb(223, 31, 31); */
+        font-size: 18px;
+        text-align: center;
+        margin-left: 5px;
+         }
+         .email_section_1 p a {
+          margin-left: 8px;
+         }
+         .glyphicon-phone{
+          font-size: 16px;
+         }
+         hr{
+           margin-top: -2px;
+         }
+         .contant_email{
+           font-size: 18px;
+         }
+
+         .section_3_h1{
+           font-size: 20px;
+           font-weight: bold;
+         }
+         .section_3_h3{
+           font-size: 15px;
+           line-height: 1px;
+         }
+         .section_3_h4{
+          font-size: 14px;
+          line-height: 1px;
+        }
+        
+
+
+
+         .row {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        .row .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+
+
+        .section_2{
+          /* height: 15rem; */
+          /* background-color: blueviolet; */
+        }
+        .section_2 img{
+          padding-top: 12px;
+        }
+        .section_2 h3{
+          margin-top: -6rem;
+          /* background-color: red; */
+          font-size: 18px;
+          padding-left: 6rem;
+        }
+        .section_3{
+          /* padding-top: 45px; */
+        }
+      }
